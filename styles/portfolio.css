@@ -3,6 +3,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+/* header styles */
 header {
     background-image: url(../images/banner/banner3.png);
     height: 808px;
@@ -34,6 +35,8 @@ a .btn-primary {
     color: #005FAC;
 }
 
+/* main styles */
+
 .container-info {
     display: flex;
     padding: 100px 200px;
@@ -42,7 +45,7 @@ a .btn-primary {
 .failures-info {
     font-weight: 700;
     font-size: 40px;
-    padding: 250px 300px 0px 50px;
+    padding: 250px 280px 0px 50px;
 }
 
 h3 {
@@ -52,9 +55,134 @@ h3 {
 
 }
 
-ul li {
+.list {
     font-weight: 400;
     font-size: 16px;
     color: #444343;
     text-decoration: none;
+    list-style: none;
+}
+
+/* my plans styles */
+
+.my-plans {
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+.plans-container {
+    display: flex;
+    gap: 95px;
+    padding: 0 250px;
+}
+
+.plans-section {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.plans-title {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.plans-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+/* gradient styles */
+.gradient {
+    background-image: url(../images/gradient3.png), url(../images/watch.png);
+    background-repeat: no-repeat;
+    margin-left: 250px;
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding: 60px 880px 30px 60px;
+}
+
+.gradient a .btn-primary {
+    margin-left: 60px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+/* welcome styles */
+.welcome{
+    text-align: center;
+}
+.welcome h4{
+    margin-bottom: 50px;
+    color: rgb(96, 184, 38);
+}
+.join-form{
+    background-color: rgb(29, 122, 52);
+    margin: 0 280px 30px 250px;
+    border-radius: 10px;
+}
+.join-form h2{
+    color: aliceblue;
+}
+.input-form{
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 20px 20px;
+}
+.input-btn{
+    padding: 20px 50px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 25px;
+    color: royalblue;
+    border-radius: 10px;
+}
+
+/* footer styles */
+.footer-container {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 80px 250px;
+}
+
+.future {
+    padding-right: 500px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.subscribe h3 {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.email {
+    padding: 10px 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.btn-subs {
+    padding: 10px 10px;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #005FAC;
 }
